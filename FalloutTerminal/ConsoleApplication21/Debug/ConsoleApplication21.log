@@ -1,0 +1,30 @@
+﻿Build started 06.05.2018 15:25:30.
+     1>Project "C:\Users\pcmelarossa\documents\visual studio 2013\Projects\ConsoleApplication21\ConsoleApplication21\ConsoleApplication21.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt urce.cpp
+         urce.cpp
+     1>c:\users\pcmelarossa\documents\visual studio 2013\projects\consoleapplication21\consoleapplication21\urce.cpp(36): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\pcmelarossa\documents\visual studio 2013\projects\consoleapplication21\consoleapplication21\urce.cpp(47): error C2678: binary '=' : no operator found which takes a left-hand operand of type 'const std::string' (or there is no acceptable conversion)
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xstring(1017): could be 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(_Elem)'
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xstring(1012): or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem *)'
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xstring(996): or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xstring(957): or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::initializer_list<_Elem>)'
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xstring(901): or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&) throw()'
+                 while trying to match the argument list '(const std::string, const char [2])'
+     1>Done Building Project "C:\Users\pcmelarossa\documents\visual studio 2013\Projects\ConsoleApplication21\ConsoleApplication21\ConsoleApplication21.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.68
